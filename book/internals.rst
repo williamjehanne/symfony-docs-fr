@@ -485,7 +485,7 @@ lui associe aussi un jeton ; ce jeton est disponible dans l'en-tête HTTP
 
 Utilisez la méthode :method:`Symfony\\Component\\HttpKernel\\Profiler\\Profiler::find`
 pour accéder aux jetons basés sur quelques critères :
-
+.. code-block::
     // récupère les 10 derniers jetons
     $tokens = $container->get('profiler')->find('', '', 10);
 
